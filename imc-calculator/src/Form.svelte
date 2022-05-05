@@ -10,5 +10,4 @@
   <label> Taille ({$taille.toFixed(2)} m) :
       <input name="taille" type="range" min="0.5" max="2.5" step="0.01" bind:value={$taille} />
   </label>
-  <button type="submit">Calculer</button>
 </form>

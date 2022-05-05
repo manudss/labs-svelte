@@ -1,5 +1,13 @@
 <script>
-	const name = "World";
-</script>
+    import Imc from "./Imc.svelte";
+    import Form from "$lib/Form.svelte";
 
-<p>Bonjour {name}</p>
+	const name = "Manu";
+
+</script>
+<main>
+    <h1>Calculateur IMC</h1>
+    <p>Bonjour {name} ! Calculez votre IMC (Indice de Masse Corporelle)</p>
+    <Form />
+    <Imc />
+</main>
